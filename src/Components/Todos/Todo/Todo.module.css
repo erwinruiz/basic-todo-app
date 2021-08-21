@@ -1,0 +1,44 @@
+.todo {
+  width: 90%;
+  min-height: 50px;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: rgb(245, 241, 236);
+  margin-bottom: 10px;
+  font-size: 25px;
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: 85% 15%;
+}
+
+.divTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.title {
+  display: inline;
+  margin: 0;
+}
+
+.icon {
+  display: inline;
+  background-color: rgb(236, 233, 233);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+@media (min-width: 768px) {
+  .todo {
+    width: 300px;
+  }
+}
